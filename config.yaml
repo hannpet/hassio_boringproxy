@@ -1,18 +1,18 @@
 ---
 version: 0.0.14
-slug: boringproxy
-name: BoringProxy-client
-description: Simple client that connects to a BoringProxy-server
+slug: ha_boringproxy
+name: BoringProxy-client for Home Assistant
+description: Simple client that connects to a BoringProxy-server. A way to give HomeAssistant a public IP without too much hassle.
 codenotary: notary@home-assistant.io
 advanced: true
 arch:
   - aarch64
 host_network: true
 options:
-  server: petschauer.at
+  server: myserver.io
   user: admin
-  token: xzGnJQ9BIrI1qcp8CoeNofuRICJIB9It
-  clientid: hassio
+  token: 12345678abcdefgh
+  clientid: myhassio
 schema:
   server: str
   user: str
