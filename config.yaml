@@ -1,7 +1,8 @@
 ---
-version: 0.0.14
+version: 0.1.00
 slug: ha_boringproxy
 name: BoringProxy-client for Home Assistant
+url: https://github.com/hannpet/ha_boringproxy
 description: Simple client that connects to a BoringProxy-server. A way to give HomeAssistant a public IP without too much hassle.
 codenotary: notary@home-assistant.io
 advanced: true
