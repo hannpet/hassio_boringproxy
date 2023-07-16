@@ -1,6 +1,8 @@
-# ha_boringproxy
-BoringProxy-client addon for Homeassistant
+# Home Assistant Add-on: BoringProxy-client
 
-### Disclainer:
-I made this for my own usage, it suits my needs but is a bit hacky and probably very buggy!
+[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+
+A simple client that connects to a BoringProxy-server
+
+![Supports aarch64 Architecture][aarch64-shield]
 

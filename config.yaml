@@ -1,0 +1,22 @@
+---
+version: 0.0.14
+slug: boringproxy
+name: BoringProxy-client
+description: Simple client that connects to a BoringProxy-server
+codenotary: notary@home-assistant.io
+advanced: true
+arch:
+  - aarch64
+host_network: true
+options:
+  server: petschauer.at
+  user: admin
+  token: xzGnJQ9BIrI1qcp8CoeNofuRICJIB9It
+  clientid: hassio
+schema:
+  server: str
+  user: str
+  token: str
+  clientid: str
+startup: application
+init: false

@@ -1,0 +1,14 @@
+---
+configuration:
+  user:
+    name: User
+    description: A user that exists in the BoringProxy-Webinterface.
+  token:
+    name: Authentification Token
+    description: A valid token for this user.
+  server:
+    name: BoringProxy Server
+    description: The URL of the public server
+  clientid:
+    name: Client ID
+    description: The name for this client

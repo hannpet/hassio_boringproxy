@@ -1,0 +1,6 @@
+---
+build_from:
+  aarch64: ghcr.io/home-assistant/aarch64-base:3.14
+codenotary:
+  signer: notary@home-assistant.io
+  base_image: notary@home-assistant.io
