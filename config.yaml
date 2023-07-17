@@ -1,5 +1,5 @@
 ---
-version: 0.1.0
+version: 0.1.1
 slug: ha_boringproxy
 name: BoringProxy-client for Home Assistant
 url: https://github.com/hannpet/ha_boringproxy
