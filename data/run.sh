@@ -5,11 +5,7 @@ USER=$(bashio::config 'user')
 TOKEN=$(bashio::config 'token')
 SERVER=$(bashio::config 'server')
 CLIENTID=$(bashio::config 'clientid')
-
-bashio::log.info ${USER}
-bashio::log.info ${TOKEN}
-bashio::log.info ${SERVER}
-bashio::log.info ${CLIENTID}
+TIMEOUT=$(bashio::config 'timeout')
 
 # Start the client
 bashio::log.info "Starting BoringProxy"
@@ -26,7 +22,7 @@ do
   PID=$!
   bashio::log.info "Launched new Client PID ${PID}"
 
-  sleep 8h &    # 8 hours until refresh
+  sleep ${TIMEOUT} &    # Set client-timeout
   PIDrenew=$!
 
   while ( kill -0 ${PIDrenew} &> /dev/null )
