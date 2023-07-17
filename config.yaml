@@ -14,10 +14,12 @@ options:
   user: admin
   token: 12345678abcdefgh
   clientid: myhassio
+  timeout: 6h
 schema:
   server: str
   user: str
   token: str
   clientid: str
+  timeout: str
 startup: application
 init: false
