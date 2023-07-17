@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.1
+- Add configurable timeout (after this time, the client restarts)
+
 ## 0.1.0
 - Migrate to github-repository
 
