@@ -20,6 +20,6 @@ schema:
   user: str
   token: str
   clientid: str
-  timeout: str
+  timeout: list(3h|4h|5h|6h|24h|72h)?
 startup: application
 init: false
